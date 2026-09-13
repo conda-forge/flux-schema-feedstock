@@ -1,5 +1,5 @@
 context:
-  version: "0.12.1"
+  version: "0.13.0"
   grep: ${{ "grep" if unix else "findstr" }}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/fluxcd/flux-schema/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 33162afbbecf8c2e2c8eeea2941b35265d2a47a63d54063a495d6a40b96b20be
+  sha256: e2369dcda3585e40688a0a0bb55f3fe2ccbea48f6e1c3fe3cea9c1054bbde42a
 
 build:
   number: 0
